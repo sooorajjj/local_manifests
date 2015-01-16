@@ -10,7 +10,7 @@ fetch="git://github.com/" />
 <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="gh" revision="kk4.4" />
 <project path="hardware/qcom/media-caf-new " name="SlimRoms/hardware_qcom_media-caf-new" remote="gh" revision="kk4.4" />
 <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="gh" revision="kk4.4" />
-<project path="frameworks/otp/connectivity" name="SlimRoms/frameworks_opt_connectivity" remote="gh" revision="kk4.4" />
+<project path="frameworks/opt/connectivity" name="SlimRoms/frameworks_opt_connectivity" remote="gh" revision="kk4.4" />
 
 
 </manifest>
