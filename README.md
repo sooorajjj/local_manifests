@@ -1,2 +1,2 @@
  local_manifests for YU Yureka
- for branche kk_mkt (Mokee)
+ for branche Omini-kk4.4
