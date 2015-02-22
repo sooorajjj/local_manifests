@@ -11,7 +11,6 @@ fetch="git://github.com/" />
 <project path="hardware/qcom/media-caf-new " name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="gh" revision="cm-11.0" />
 <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="gh" revision="cm-11.0" />
 <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="gh" revision="cm-11.0" />
-</manifest>
 
 
 </manifest>
