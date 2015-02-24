@@ -8,9 +8,8 @@ fetch="git://github.com/" />
 <project path="device/yu/tomato" name="YU-YUREKA/android_device_yu_tomato" remote="gh" revision="omini-kk4.4" />
 <project path="vendor/yu" name="YU-YUREKA/proprietary_vendor_yu" remote="gh" revision="cm-11.0" />
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="gh" revision="cm-11.0" />
-<project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="gh" revision="cm-11.0" />
-<project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="gh" revision="cm-11.0" />
-<project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="gh" revision="cm-11.0" />
+<project path="hardware/qcom/media-caf-bfam" name="omnirom/android_hardware_qcom_media-caf-bfam" remote="gh" revision="android-4.4" />
+<project path="hardware/qcom/display-caf-bfam" name="omnirom/android_hardware_qcom_display-caf-bfam" remote="gh" revision="android-4.4" />
 
 
 </manifest>
