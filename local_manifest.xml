@@ -17,6 +17,7 @@ fetch="git://github.com/" />
 <project path="external/ant-wireless/ant_native" name="omnirom/android_external_ant-wireless_ant_native" remote="gh" revision="android-7.1" />
 
 <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="gh" revision="cm-14.1" />
+<project path="vendor/n-7.1.1_r1" name="sooorajjj/android_vendor_n-7.1.1_r1" remote="gh" revision="n-7.1.1_r1" />
 <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />
 <project path="vendor/qcom/opensource/dataservices" name="omnirom/vendor_qcom_opensource_dataservices" remote="gh" revision="android-7.1" />
 
