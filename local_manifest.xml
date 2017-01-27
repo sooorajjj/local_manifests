@@ -4,10 +4,20 @@
 <remote name="gh"
 fetch="git://github.com/" />
 
-<project path="kernel/yu/msm8916" name="SlimRoms/kernel_yu_msm8916" remote="gh" revision="lp5.1" />
-<project path="device/yu/lettuce" name="YU-YUPHORIA/android_device_yu_lettuce" remote="gh" revision="lp5.1" />
-<project path="device/yu/msm8916-common" name="SlimRoms/device_yu_msm8916-common" remote="gh" revision="lp5.1" />
-<project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="gh" revision="cm-12.1" />
-<project path="external/mm/dash" name="SlimRoms/android_external_mm-dash" remote="gh" revision="lp5.1" />
+<project path="kernel/cyanogen/msm8916" name="LineageOS/android_kernel_cyanogen_msm8916" remote="gh" revision="cm-14.1" />
+<project path="device/yu/lettuce" name="sooorajjj/android_device_yu_lettuce" remote="gh" revision="n-7.1.1_r1" />
+<project path="device/qcom/msm8916-common" name="omnirom/android_device_qcom_msm8916-common" remote="gh" revision="android-7.1" />
+
+<project path="device/qcom/sepolicy" name="omnirom/android_device_qcom_caf-sepolicy" remote="gh" revision="android-7.1" />
+<project path="hardware/qcom/audio-caf-msm8916" name="omnirom/android_hardware_qcom_audio-caf-msm8916" remote="gh" revision="android-7.1" />
+<project path="hardware/qcom/display-caf-msm8916" name="omnirom/android_hardware_qcom_display-caf-msm8916" remote="gh" revision="android-7.1" />
+<project path="hardware/qcom/media-caf-msm8916" name="omnirom/android_hardware_qcom_media-caf-msm8916" remote="gh" revision="android-7.1" />
+
+<project path="external/ant-wireless/ant_service" name="omnirom/android_external_ant-wireless_ant_service" remote="gh" revision="android-7.1" />
+<project path="external/ant-wireless/ant_native" name="omnirom/android_external_ant-wireless_ant_native" remote="gh" revision="android-7.1" />
+
+<project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="gh" revision="cm-14.1" />
+<project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />
+<project path="vendor/qcom/opensource/dataservices" name="omnirom/vendor_qcom_opensource_dataservices" remote="gh" revision="android-7.1" />
 
 </manifest>
