@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="gh"
-fetch="git://github.com/" />
+<!-- <remove-project name="platform/hardware/qcom/bt" /> -->
 
+<remote name="gh" fetch="git://github.com/" />
+<!-- <remote name="private" fetch="git@github.com:" /> -->
+<!-- <remote name="aosp" fetch="https://android.googlesource.com/" /> -->
+
+
+<!-- <project path="build/kati" name="platform/build/kati" remote="gh" revision="android-cts-7.1_r1" /> -->
 <project path="kernel/cyanogen/msm8916" name="LineageOS/android_kernel_cyanogen_msm8916" remote="gh" revision="cm-14.1" />
 <project path="device/yu/lettuce" name="sooorajjj/android_device_yu_lettuce" remote="gh" revision="n-7.1.1_r1" />
-<project path="device/qcom/msm8916-common" name="omnirom/android_device_qcom_msm8916-common" remote="gh" revision="android-7.1" />
+<project path="device/qcom/msm8916-common" name="sooorajjj/device_qcom_msm8916-common" remote="gh" revision="n-7.1.1_r1" />
 
 <project path="device/qcom/sepolicy" name="omnirom/android_device_qcom_caf-sepolicy" remote="gh" revision="android-7.1" />
 <project path="hardware/qcom/audio-caf-msm8916" name="omnirom/android_hardware_qcom_audio-caf-msm8916" remote="gh" revision="android-7.1" />
 <project path="hardware/qcom/display-caf-msm8916" name="omnirom/android_hardware_qcom_display-caf-msm8916" remote="gh" revision="android-7.1" />
 <project path="hardware/qcom/media-caf-msm8916" name="omnirom/android_hardware_qcom_media-caf-msm8916" remote="gh" revision="android-7.1" />
+<!-- <project path="hardware/qcom/bt" name="omnirom/android_hardware_qcom_bt" remote="gh" revision="android-7.1" /> -->
+<project path="hardware/qcom/fm" name="omnirom/android_hardware_qcom_fm" remote="gh" revision="android-7.1" />
+<project path="packages/apps/FMRadio" name="omnirom/android_packages_apps_FMRadio" remote="gh" revision="android-7.1" />
+<project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="gh" revision="android-7.1" />
+<project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" remote="gh" revision="cm-14.1" />
 
 <project path="external/ant-wireless/ant_service" name="omnirom/android_external_ant-wireless_ant_service" remote="gh" revision="android-7.1" />
 <project path="external/ant-wireless/ant_native" name="omnirom/android_external_ant-wireless_ant_native" remote="gh" revision="android-7.1" />
 
+<project path="external/ant-wireless/antradio-library" name="omnirom/android_external_ant-wireless_antradio-library" remote="gh" revision="android-7.1" />
+
+<!-- <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="refs/tags/android-n-preview-3" /> -->
+
 <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="gh" revision="cm-14.1" />
-<project path="vendor/n-7.1.1_r1" name="sooorajjj/android_vendor_n-7.1.1_r1" remote="gh" revision="n-7.1.1_r1" />
+<!-- <project path="vendor/n-7.1.1_r1" name="sooorajjj/android_vendor_n-7.1.1_r1.git" remote="private" revision="n-7.1.1_r1" /> -->
 <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />
 <project path="vendor/qcom/opensource/dataservices" name="omnirom/vendor_qcom_opensource_dataservices" remote="gh" revision="android-7.1" />
+
 
 </manifest>
